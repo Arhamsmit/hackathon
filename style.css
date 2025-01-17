@@ -1,0 +1,507 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1400px;
+    margin: 10px auto;
+}
+
+a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+#logo {
+    width: 200px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.toggle-menu {
+    display: none;
+}
+
+.singin-btn >.singin{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.bodycontainer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading1 {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.h1-text,
+.p1-text,
+.start-btn {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.h1-text>h1 {
+    width: 60%;
+    font-size: 50px;
+}
+
+.p1-text>p {
+    width: 40%;
+    font-size: 20px;
+}
+
+.start {
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+}
+
+.image1 {
+    width: 50%;
+    height: 60vh;
+    background-image: url("images/idea-launch\ 1\ \(1\).svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card>p {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image2 {
+    width: 50%;
+    height: 60vh;
+    background-image: url("images/business-success-chart\ 1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading2 {
+    width: 50%;
+}
+
+.h2-text>h1 {
+    width: 100%;
+    font-size: 50px;
+}
+
+.p2-text>p {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.container4 {
+    width: 100%;
+}
+
+.heading3 {
+    width: 100%;
+    text-align: center;
+}
+
+.all-cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cards {
+    width: 30%;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container5 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading4 {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.heading4>h1 {
+    width: 60%;
+    font-size: 40px;
+}
+
+.input-container {
+    width: 50%;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#email {
+    width: 70%;
+    border: none;
+    background-color: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.get {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-content {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.f-logo,
+.f-para,
+.copyright {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.f-para>p {
+    width: 50%;
+    font-size: 20px;
+}
+
+.copyright {
+    font-size: 18px;
+}
+
+.f-links {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quick-menu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.resources {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 100%;
+    height: 25px;
+    margin-top: 33px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+i {
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 1rem 0;
+        padding-left: 20px;
+    }
+    #logo{
+        width: 130px;
+    }
+    .toggle-menu:checked~.nav-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .container1 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .heading1 {
+        width: 100%;
+    }
+
+    .h1-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p1-text {
+        width: 100%;
+    }
+
+    .h1-text>h1 {
+        width: 100%;
+    }
+
+    .p1-text>p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .start-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image1 {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .card>p {
+        width: 90%;
+        text-align: start;
+    }
+
+    .container3 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image2 {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .heading2 {
+        width: 100%;
+    }
+
+    .h2-text>h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .p2-text>p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4 {
+        width: 100%;
+    }
+
+    .all-cards {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 90%;
+    }
+
+    .container5 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading4 {
+        width: 100%;
+    }
+
+    .heading4>h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input-container {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #email {
+        width: 50%;
+    }
+
+    .get {
+        width: 50%;
+    }
+
+    footer {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .f-content {
+        width: 80%;
+    }
+
+    .f-para>p {
+        width: 100%;
+    }
+
+    .f-links {
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .quick-menu {
+        margin: auto;
+    }
+
+    .resources {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .social-icon {
+        font-size: 15px;
+        text-align: start;
+        padding-right: 50px;
+    }
+}
